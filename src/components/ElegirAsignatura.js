@@ -28,7 +28,7 @@ export default class LandingPage extends React.Component {
                                 <kor-table-cell>2</kor-table-cell>
                                 <kor-table-cell>
                                     <Link to="/postular/inf322">
-                                        <kor-button label="Seleccionar" color="Secondary"></kor-button>
+                                        <kor-button label="Seleccionar"></kor-button>
                                     </Link>
                                     
                                 </kor-table-cell>
@@ -39,7 +39,7 @@ export default class LandingPage extends React.Component {
                                 <kor-table-cell><a>Luis Hevia</a></kor-table-cell>
                                 <kor-table-cell>3</kor-table-cell>
                                 <kor-table-cell>
-                                    <kor-button label="Seleccionar" color="Secondary"></kor-button>
+                                    <kor-button label="Seleccionar"></kor-button>
                                 </kor-table-cell>
                             </kor-table-row>
                         </kor-table>

@@ -19,7 +19,7 @@
     text-align: center;
     align-self: center;
     margin: 5%;
-    margin-top: 100%;
+    margin-top: 10%;
 }
 
 .link-pane {
@@ -29,7 +29,7 @@
 
 .link-postular {
     align-self: center;
-    margin-top: auto;
+    margin-top: 10%;
 }
 
 .boton-postular {
@@ -47,6 +47,10 @@
     height: 100%;
 }
 
+.h-min {
+    height:min-content ;
+}
+
 .mt-2 {
     margin-top: 2%;
 }
@@ -57,4 +61,25 @@ a {
 
 Link {
     margin: 0;
+}
+
+.perfil-color {
+    background-color: #303030;
+    padding: 5px;
+}
+
+.perfil-title {
+    font-size: large;
+    text-align: center;
+    background-color: #303030;
+    padding: 5px;
+}
+
+.perfil-content {
+    padding-left: 10px;
+}
+
+.perfil-button {
+    width: 300px;
+    padding: 5px 54px;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link, BrowserRouter, Switch, Route } from 'react-router-dom'
 
 export default class LandingPage extends React.Component {
 
@@ -13,6 +13,7 @@ export default class LandingPage extends React.Component {
                         <kor-tab-item label="Metalúrgica"></kor-tab-item>
                         <kor-tab-item label="Mecánica"></kor-tab-item>
                     </kor-tabs>
+
 
                     <kor-text size="header-1" class="mt-2">Fechas importantes: Departamento de Informática</kor-text>
 
